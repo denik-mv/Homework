@@ -1,0 +1,6 @@
+print('Enter a, b, c for [ax^2 + bx + c = 0]')
+a = int(input('Enter a first number (a): '))
+b = int(input('Enter a second number (b): '))
+c = int(input('Enter a thirst number (c): '))
+print('The first decision is x1={:4.2f}'.format((-b+(b**2-4*a*c)**(1/2))/2*a))
+print('The second decision is x2={:4.2f}'.format((-b-(b**2-4*a*c)**(1/2))/2*a))
